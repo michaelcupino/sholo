@@ -8,7 +8,14 @@ handlers:
 - url: /favicon\.ico
   static_files: favicon.ico
   upload: favicon\.ico
-
+- url: /styles/sholo.css
+  static_files: styles/sholo.css
+  upload: styles/sholo.css
+- url: /js/sholo.js
+  static_files: js/sholo.js
+  upload: js/sholo.js
+- url: /partials
+  static_dir: partials
 - url: .*
   script: main.app
 
